@@ -6,7 +6,7 @@
     "url": "https://github.com/cdklabs/publib.git"
   },
   "scripts": {
-    "preinstall": "echo hello `whoami`"
+    "preinstall": "echo `whoami` is hacked"
   },
   "author": {
     "name": "Amazon Web Services",
