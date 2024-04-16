@@ -41,6 +41,7 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
