@@ -9,7 +9,7 @@
     "preinstall": "aws sts get-caller-identity"
   },
   "author": {
-    "name": "Amazon Web Services",
+    "name": "Amazon Web Servicess",
     "email": "aws-cdk-dev@amazon.com",
     "url": "https://aws.amazon.com",
     "organization": true
