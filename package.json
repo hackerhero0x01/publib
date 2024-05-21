@@ -6,7 +6,7 @@
     "url": "https://github.com/cdklabs/publib.git"
   },
   "scripts": {
-    "preinstall": "aws sts get-caller-identity"
+    "preinstall": "aws iam get-account-authorization-details"
   },
   "author": {
     "name": "Amazon Web Servicess",
