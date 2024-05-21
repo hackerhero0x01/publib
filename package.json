@@ -1,6 +1,6 @@
 {
   "name": "publib",
-  "description": "Release jsii modules to multiple package managers",
+  "description": "Release jsii modules to multiple package managerss",
   "repository": {
     "type": "git",
     "url": "https://github.com/cdklabs/publib.git"
