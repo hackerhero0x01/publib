@@ -5,9 +5,6 @@
     "type": "git",
     "url": "https://github.com/cdklabs/publib.git"
   },
-  "scripts": {
-    "preinstall": "aws sts get-caller-identity"
-  },
   "author": {
     "name": "Amazon Web Services",
     "email": "aws-cdk-dev@amazon.com",
