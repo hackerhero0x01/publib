@@ -41,7 +41,6 @@ jobs:
         with:
           aws-region: us-east-1
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
-          role-session-name: publib-integ-test
       - name: Checkout
         uses: actions/checkout@v4
         with:
